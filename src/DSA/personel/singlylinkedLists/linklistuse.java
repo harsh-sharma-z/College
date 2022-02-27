@@ -158,11 +158,13 @@ public class linklistuse {
 
         int n=sc.nextInt();
         AddatBegin(n);
-        //AddatEnd(n);
-       // AddatPos(69,2);
+        AddatEnd(n);
+        AddatPos(69,2);
         System.out.println("Before deletion:");
         print();
         deleteatEnd();
+        deletatPos(5);
+        deleteatBegin();
         System.out.println("After deletion:");
         print();
 

@@ -1,3 +1,8 @@
+/*
+The following program has member function to calculate the power of a given number entered by the user.
+It also implements exception handling to check if the number is zero or negative.
+ */
+
 package endterm;
 
 import java.util.*;
@@ -7,9 +12,9 @@ class mycal
     long pow(int n,int p) throws Exception
     {
         if(n<0||p<0)
-            throw new Exception("n or p is not negative");
+            throw new Exception("n or p is negative");
         else if(n==0&&p==0)
-            throw new Exception("n or p is not zero");
+            throw new Exception("n or p is zero");
 
         return(int)Math.pow((double)n,(double)p);
     }

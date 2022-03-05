@@ -1,3 +1,16 @@
+/*
+The following program had a class named Member with members:
+    String name,add;
+    int age, salary;
+    long ph;
+
+Class employee that extends member
+
+And a class manager that extends member too.
+
+And the main class ques2 that uses the objects of these classes to use the print salary function to print salary of the different objects of different classes.
+ */
+
 package endterm;
 
  class Member{

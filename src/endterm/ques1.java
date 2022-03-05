@@ -1,3 +1,7 @@
+/*
+The following program contains a class myCalculator that implements an interface named AdvancedArithematic.
+ */
+
 package endterm;
 
 import java.util.Scanner;

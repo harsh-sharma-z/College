@@ -1,3 +1,11 @@
+/*
+This programs implements a stack by singly linked list.
+It has the following functions:
+- push(): to enter elements into the stack
+- pop(): to delete and take out elements from the list
+- print(): to print the stack
+ */
+
 package DSA.personel.singlylinkedLists;
 
 import java.util.Scanner;
@@ -5,7 +13,7 @@ import java.util.Scanner;
 public class stackusingLL {
     static Node head=null;
     static Node tail=null;
-    public static void AddatEnd(int n) {
+    public static void push(int n) {
 
         Scanner sc = new Scanner(System.in);
         int data;
@@ -65,7 +73,7 @@ public class stackusingLL {
 
 
     public static void main(String[] args) {
-        AddatEnd(5);
+        push(5);
         System.out.println("The linked list is:");
         print();
         pop();

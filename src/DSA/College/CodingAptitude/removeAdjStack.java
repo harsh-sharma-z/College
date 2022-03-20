@@ -1,3 +1,6 @@
+/*
+This programs removes the adjacent elements of a stack if its next element is similar to it.
+ */
 package DSA.College.CodingAptitude;
 
 import java.io.*;

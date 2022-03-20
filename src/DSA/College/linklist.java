@@ -3,6 +3,12 @@ Basic program of a linked list with a Node class
 and the following functions:
 -insert at beginning
 -insert at position
+-insert at end
+-delete at begin
+-delete at end
+-delete at pos
+-print
+
  */
 
 package DSA.College;

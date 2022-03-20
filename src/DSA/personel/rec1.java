@@ -1,5 +1,5 @@
 /*
-this following programs uses a recursive function to calculate the factorial of a given number.
+This following programs uses a recursive function to calculate the factorial of a given number.
  */
 
 package DSA.personel;

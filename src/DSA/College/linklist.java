@@ -1,3 +1,10 @@
+/*
+Basic program of a linked list with a Node class
+and the following functions:
+-insert at beginning
+-insert at position
+ */
+
 package DSA.College;
 
 

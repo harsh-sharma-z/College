@@ -1,3 +1,15 @@
+/*
+The following code uses singly linked list based node.
+And have specific function to perform:
+- insertion at beginning
+- insertion at ending
+- insertion at any user given position
+- deletion at end
+- deletion at beginning
+- deletion at any user given position
+- printing the list in forward and reverse traversal.
+ */
+
 package DSA.personel.singlylinkedLists;
 import java.util.*;
 

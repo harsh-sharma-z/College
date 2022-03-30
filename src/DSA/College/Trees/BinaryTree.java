@@ -5,7 +5,7 @@ The following code contains a TreeNode class with following instances:
 - int data
 - constructor to initialize data to the object of the class
 
-Also it has member functions:
+Also, it has member functions:
 - createBinaryTree: It creates some TreeNodes and combine them as a binary tree
  */
 package DSA.College.Trees;

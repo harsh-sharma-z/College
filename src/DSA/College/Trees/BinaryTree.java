@@ -1,4 +1,15 @@
+/*
+The following code contains a TreeNode class with following instances:
+- TreeNode left
+- TreeNode right
+- int data
+- constructor to initialize data to the object of the class
+
+Also it has member functions:
+- createBinaryTree: It creates seven Nodes and combine them as a binary tree
+ */
 package DSA.College.Trees;
+
 
 public class BinaryTree {
     private static TreeNode root;

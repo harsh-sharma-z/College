@@ -11,6 +11,8 @@ Also, it has member functions:
 package DSA.College.Trees;
 
 
+import java.sql.SQLOutput;
+
 public class BinaryTree {
     private static TreeNode root;
 
@@ -50,9 +52,19 @@ public class BinaryTree {
 
         }
 
+        public static void preOrder(TreeNode root)
+        {
+            if(root==null)
+                return;
+            System.out.println(root.data+" ");
+            preOrder(root.left);
+            preOrder(root.right);
+        }
+
         public static void main(String args[])
         {
             createBinaryTree();
+            preOrder(root);
         }
 
     }

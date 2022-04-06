@@ -7,6 +7,13 @@ The following code contains a TreeNode class with following instances:
 
 Also, it has member functions:
 - createBinaryTree: It creates some TreeNodes and combine them as a binary tree
+
+Syllabus:
+Inorder, Preorder, Postorder
+Min and max search
+Advanced Search (algorithm)
+BST deletion
+
  */
 package DSA.College.Trees;
 

@@ -8,7 +8,7 @@ It has the following member functions:
 
  */
 
-package DSA.College.Trees.BST;
+package DSA.personel.Trees.BST;
 
 public class BinaryTreeNode {
     public int data;

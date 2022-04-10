@@ -7,7 +7,7 @@ It has two methods:
  */
 
 
-package DSA.College.Trees.BST;
+package DSA.personel.Trees.BST;
 
 
 import java.util.*;

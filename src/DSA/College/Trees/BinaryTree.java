@@ -13,12 +13,8 @@ Inorder, Preorder, Postorder
 Min and max search
 Advanced Search (algorithm)
 BST deletion
-
  */
 package DSA.College.Trees;
-
-
-import java.sql.SQLOutput;
 
 public class BinaryTree {
     private static TreeNode root;
@@ -68,7 +64,7 @@ public class BinaryTree {
             preOrder(root.right);
         }
 
-        public static void main(String args[])
+        public static void main(String[] args)
         {
             createBinaryTree();
             preOrder(root);

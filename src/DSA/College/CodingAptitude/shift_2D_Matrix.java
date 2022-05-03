@@ -36,10 +36,10 @@ public class shift_2D_Matrix {
         }
 
 
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        List<List<Integer>> result = new ArrayList<>();
 
         for(int i = 0; i < row; i++) {
-            List<Integer> list = new ArrayList<Integer>();
+            List<Integer> list = new ArrayList<>();
             for(int j = 0; j < col; j++) {
                 list.add(temp[i][j]);
             }

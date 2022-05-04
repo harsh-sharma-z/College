@@ -79,11 +79,11 @@ public class MergeSort {
 
         sort(a,0,n-1);
 
-        System.out.println("Sorted array is:");
-        for (int i = 0; i <n ; i++) {
-            System.out.print(a[i]+" ");
+        System.out.println("The sorted array is :");
+        for(int i=0;i<n;i++)
+            System.out.println(a[i]);
         }
 
     }
 
-}
+

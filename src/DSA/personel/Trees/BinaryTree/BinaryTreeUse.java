@@ -156,7 +156,29 @@ public class  BinaryTreeUse {
         System.out.print(root.data+" ");
     }
 
-
+    public static void levelorder (BinaryTreeNode root)
+    {
+        Queue<BinaryTreeNode> q =new LinkedList<>();
+        q.add(root);
+        q.add(null);
+        while(!q.isEmpty())
+        {
+            BinaryTreeNode cur=q.poll();
+            if(cur==null)
+            {
+                if(q.isEmpty())
+                    return;
+                q.add(null);
+                System.out.println("");
+                continue;
+            }
+            System.out.print(cur.data+" ");
+            if(cur.left!=null)
+                q.add(cur.left);
+                if(cur.right!=null)
+                    q.add(cur.right);
+        }
+    }
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -179,7 +201,8 @@ public class  BinaryTreeUse {
         preorder(root);
         System.out.println("\n__________________\nPostorder traversal:");
         postorder(root);
-
+        System.out.println("\n__________________\nLevelOrder traversal:");
+        levelorder(root);
         System.out.println("\n______________________");
 
         if(isBST(root))
